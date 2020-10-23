@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Projeto Electron </title>
+</head>
+<body>
+    <div>
+        <h1>Gerador de senha</h1>
+    </div>
+    <label for="">Qual o tamanho da senha?  </label>
+    <input type="number" id="pass" min="0" max="15" />
+    <button onclick="generatePass()">Gerar senha</button>
+
+    <div>
+        <span id="newPassword"></span>
+    </div>
+</body>
+
+<script src="./src/script.js"></script>
+
+</html>
